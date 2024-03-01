@@ -5,7 +5,7 @@ def match_school(text)
 
     matches = text.scan(regex)
     if !matches.empty?
-        puts matches.join('')
+        puts matches.join
     else
         puts ""
     end
