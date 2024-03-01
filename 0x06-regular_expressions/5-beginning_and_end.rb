@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 def match_hwn(text)
-    regex = /h\wn/i
+    regex = /h\wn/
     matches = text.scan(regex)
     if !matches.empty?
         puts matches.join('')
